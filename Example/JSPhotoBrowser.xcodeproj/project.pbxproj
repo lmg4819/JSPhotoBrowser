@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449379A0D9CF55A2691D7B33 /* Pods_JSPhotoBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4530086B73E61CD0F73750 /* Pods_JSPhotoBrowser_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		968C2C50160521CD652FFD36 /* Pods_JSPhotoBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3866562B0A1CF36783C477 /* Pods_JSPhotoBrowser_Example.framework */; };
+		995C7CC1786BF7F9CBA06775 /* libPods-JSPhotoBrowser_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8402903B5EC31BA515D153 /* libPods-JSPhotoBrowser_Tests.a */; };
+		CA505DABAB3EC651E220F4C4 /* libPods-JSPhotoBrowser_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEDD8DF39FD53AB52BB70AD /* libPods-JSPhotoBrowser_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EEDD8DF39FD53AB52BB70AD /* libPods-JSPhotoBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPhotoBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		476EDF79E14AA2CAEF061C05 /* Pods-JSPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPhotoBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPhotoBrowser_Tests/Pods-JSPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B4530086B73E61CD0F73750 /* Pods_JSPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JSPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		918471B0345645A41E12F872 /* Pods-JSPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPhotoBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A8348F23C85BC896C0C8B458 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA3866562B0A1CF36783C477 /* Pods_JSPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96754975975ED841650B420 /* Pods-JSPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPhotoBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPhotoBrowser_Tests/Pods-JSPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8D0A3504DBDCA32CB632D04 /* Pods-JSPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPhotoBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7038216C092F9157CAC568A /* JSPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSPhotoBrowser.podspec; path = ../JSPhotoBrowser.podspec; sourceTree = "<group>"; };
 		FDD9290B3FFCD4F7D8FF664E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF8402903B5EC31BA515D153 /* libPods-JSPhotoBrowser_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPhotoBrowser_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				968C2C50160521CD652FFD36 /* Pods_JSPhotoBrowser_Example.framework in Frameworks */,
+				CA505DABAB3EC651E220F4C4 /* libPods-JSPhotoBrowser_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				449379A0D9CF55A2691D7B33 /* Pods_JSPhotoBrowser_Tests.framework in Frameworks */,
+				995C7CC1786BF7F9CBA06775 /* libPods-JSPhotoBrowser_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BA3866562B0A1CF36783C477 /* Pods_JSPhotoBrowser_Example.framework */,
-				5B4530086B73E61CD0F73750 /* Pods_JSPhotoBrowser_Tests.framework */,
+				2EEDD8DF39FD53AB52BB70AD /* libPods-JSPhotoBrowser_Example.a */,
+				FF8402903B5EC31BA515D153 /* libPods-JSPhotoBrowser_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				76E503B109229C8290F868BD /* [CP] Embed Pods Frameworks */,
+				0CF883A0345D358091D9373C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +294,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CF883A0345D358091D9373C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JSPhotoBrowser/JSPhotoBrowser.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MyLibrary/MyLibrary.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MyLibrary.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		10948E8E63E32B87FF8ED6B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,24 +330,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76E503B109229C8290F868BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JSPhotoBrowser/JSPhotoBrowser.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSPhotoBrowser.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPhotoBrowser_Example/Pods-JSPhotoBrowser_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1717A65E6D8BB8CD3F93ED1 /* [CP] Check Pods Manifest.lock */ = {

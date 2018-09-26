@@ -7,36 +7,30 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JSPhotoBrowser'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JSPhotoBrowser.'
+s.name             = 'JSPhotoBrowser'
+s.version          = '0.1.0'
+s.summary          = '图片浏览器'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+图片浏览器，可以浏览本地图片和网络图片，还能剪裁图片
+DESC
 
-  s.homepage         = 'https://github.com/lmg4819/JSPhotoBrowser'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lmg4819' => 'luomengge@cheyipai.com' }
-  s.source           = { :git => 'https://github.com/lmg4819/JSPhotoBrowser.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/lmg4819/JSPhotoBrowser'
 
-  s.ios.deployment_target = '8.0'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'lmg' => '893788253@qq.com' }
+s.source           = { :git => 'https://github.com/lmg4819/JSPhotoBrowser.git', :tag => s.version.to_s }
 
-  s.source_files = 'JSPhotoBrowser/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JSPhotoBrowser' => ['JSPhotoBrowser/Assets/*.png']
-  # }
+s.ios.deployment_target = '8.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.source_files = 'JSPhotoBrowser/Classes/JSPhotoBrowser/**/*.{h,m}'
+
+s.resource_bundles = {
+'JSPhotoBrowser' => ['JSPhotoBrowser/Assets/*']
+}
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+s.dependency 'SDWebImage', '>= 4.0.0'
 end

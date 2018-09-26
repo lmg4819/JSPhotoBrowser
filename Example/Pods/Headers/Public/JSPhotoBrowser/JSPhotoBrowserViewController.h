@@ -1,0 +1,1 @@
+../../../../../JSPhotoBrowser/Classes/JSPhotoBrowser/JSPhotoBrowserViewController.h

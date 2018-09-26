@@ -1,8 +1,14 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/lmg4819/PrivateRepo.git'
+#use_frameworks!
+
+platform :ios, '9.0'
 
 target 'JSPhotoBrowser_Example' do
   pod 'JSPhotoBrowser', :path => '../'
-
+  pod 'MyLibrary', '0.7.0'
+  
+  
   target 'JSPhotoBrowser_Tests' do
     inherit! :search_paths
 

@@ -1,0 +1,31 @@
+PODS:
+  - JSPhotoBrowser (0.7.0):
+    - SDWebImage (>= 4.0.0)
+  - MyLibrary (0.7.0):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - JSPhotoBrowser (from `../`)
+  - MyLibrary (= 0.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+  https://github.com/lmg4819/PrivateRepo.git:
+    - MyLibrary
+
+EXTERNAL SOURCES:
+  JSPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSPhotoBrowser: d888d8bd68628e542f82e1c7836b12b9ad94a36a
+  MyLibrary: 32524421c793ac3817a2e25708171bc79d603566
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: a33041deb3b29012f5e3025372e925a3c62b863d
+
+COCOAPODS: 1.5.3

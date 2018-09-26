@@ -1,0 +1,32 @@
+{
+  "name": "JSPhotoBrowser",
+  "version": "0.7.0",
+  "summary": "图片浏览器",
+  "description": "图片浏览器，可以浏览本地图片和网络图片，还能剪裁图片",
+  "homepage": "https://github.com/lmg4819/JSPhotoBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lmg": "893788253@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lmg4819/JSPhotoBrowser.git",
+    "tag": "0.7.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSPhotoBrowser/Classes/JSPhotoBrowser/**/*.{h,m}",
+  "resource_bundles": {
+    "JSPhotoBrowser": [
+      "JSPhotoBrowser/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+      ">= 4.0.0"
+    ]
+  }
+}
