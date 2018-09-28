@@ -12,6 +12,7 @@
 #import "JSCommonTool.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "JSImageCropManager.h"
+#import "NSBundle+Category.h"
 
 @interface JSPhotoBrowserViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UIScrollViewDelegate>
 {
@@ -116,7 +117,8 @@
     [_backButton addTarget:self action:@selector(backButtonClick) forControlEvents:UIControlEventTouchUpInside];
     
     _doneButton = [[UIButton alloc]initWithFrame:CGRectZero];
-    [_doneButton setTitle:@"完成" forState:UIControlStateNormal];
+//    [_doneButton setTitle:SCCPayLoc(@"finish") forState:UIControlStateNormal];
+    [_doneButton setTitle:[NSBundle js_localizedStringForKey:@"finish"] forState:UIControlStateNormal];
     [_doneButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_doneButton addTarget:self action:@selector(doneButtonClick) forControlEvents:UIControlEventTouchUpInside];
     _doneButton.hidden = self.photos.count!=1;

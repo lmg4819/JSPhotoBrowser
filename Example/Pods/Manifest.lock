@@ -1,5 +1,5 @@
 PODS:
-  - JSPhotoBrowser (0.7.0):
+  - JSPhotoBrowser (0.2.0):
     - SDWebImage (>= 4.0.0)
   - MyLibrary (0.7.0):
     - SDWebImage (>= 4.0.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSPhotoBrowser: d888d8bd68628e542f82e1c7836b12b9ad94a36a
+  JSPhotoBrowser: afef16c8fcb10be1a67d318665399a58362c4b00
   MyLibrary: 32524421c793ac3817a2e25708171bc79d603566
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
